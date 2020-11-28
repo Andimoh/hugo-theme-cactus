@@ -2,7 +2,7 @@ baseURL = "https://example.com"
 languageCode = "en-us"
 title = "Cactus theme example"
 theme = "cactus"
-copyright = "You" # cactus will use title if copyright is not set
+copyright = "Mohammed J A" # cactus will use title if copyright is not set
 disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
@@ -21,8 +21,8 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "Resume"
+url = "/resume"
 weight = 3
 
 [markup]
@@ -41,10 +41,10 @@ weight = 3
   description = "I am a security engineer, and a software developer wannabe."
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
-  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  postsOnHomePage = 2 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
   showProjectsList = true # show projects list by default (if projects data file exists).
-  projectsUrl = "https://github.com/gohugoio" # title link for projects list
+  #projectsUrl = "https://github.com/gohugoio" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
   dateFormat = "2006-01-02" # default
@@ -60,10 +60,10 @@ weight = 3
   # https://fontawesome.com/icons?d=gallery&s=brands
   [[params.social]]
     name = "github"
-    link = "https://github.com/gohugoio"
+    link = "https://github.com/andimoh"
   [[params.social]]
     name = "linkedin"
-    link = "https://www.linkedin.com/company/github/"
+    link = "https://www.linkedin.com/in/mohammed-abdulkadir-044779108/"
   [[params.social]]
     name = "email"
-    link = "example@example.com"  # no need for "mailto:" in the head
+    link = "mohd.jkadir@gmail.com"  # no need for "mailto:" in the head
